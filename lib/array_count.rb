@@ -4,6 +4,7 @@ def count_strings(array)
   array.count do |item|
     item.String?
   end
+  array
 end
 
 
